@@ -1,0 +1,9 @@
+python train.py\
+    --dataset sourcefolder\
+    --output open-unmix-512\
+    --root /Users/andres/Documents/acordeon/data\
+    --target-dir acordeon\
+    --interferer-dirs interferer\
+    --ext .wav\
+    --nb-train-samples 1000\
+    --nb-valid-samples 100
