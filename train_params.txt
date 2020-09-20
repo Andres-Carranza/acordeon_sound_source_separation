@@ -5,5 +5,5 @@ python train.py\
     --target-dir acordeon\
     --interferer-dirs interferer\
     --ext .wav\
-    --nb-train-samples 1000\
-    --nb-valid-samples 100
+    --nb-train-samples 1305\
+    --nb-valid-samples 146
