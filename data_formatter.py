@@ -158,7 +158,7 @@ sources = ['franfaleromusic', 'juanjosegranados','silveravallenato']
 #to_wav('mp4')
 #split_data('raw/wav')
 #format_acordeon_data()
-#split_data('salsa/raw','salsa/split')
+split_data('salsa/raw','salsa/split')
 
 format_interferer_data()
 
