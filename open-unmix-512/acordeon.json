@@ -1,0 +1,81 @@
+{
+    "args": {
+        "bandwidth": 16000,
+        "batch_size": 16,
+        "dataset": "sourcefolder",
+        "epochs": 100,
+        "ext": ".wav",
+        "hidden_size": 512,
+        "interferer_dirs": [
+            "interferer"
+        ],
+        "lr": 0.001,
+        "lr_decay_gamma": 0.3,
+        "lr_decay_patience": 50,
+        "model": null,
+        "nb_channels": 1,
+        "nb_train_samples": 1305,
+        "nb_valid_samples": 146,
+        "nb_workers": 0,
+        "nfft": 4096,
+        "nhop": 1024,
+        "no_cuda": false,
+        "output": "open-unmix-512",
+        "patience": 140,
+        "quiet": false,
+        "root": "/home/carranzamoreno9/data",
+        "seed": 42,
+        "seq_dur": 5.0,
+        "source_augmentations": [
+            "gain",
+            "channelswap"
+        ],
+        "target": "acordeon",
+        "target_dir": "acordeon",
+        "unidirectional": false,
+        "weight_decay": 1e-05
+    },
+    "best_epoch": 11,
+    "best_loss": 8.109484830131269,
+    "commit": "f3cd639",
+    "epochs_trained": 11,
+    "num_bad_epochs": 0,
+    "train_loss_history": [
+        19.032457138295374,
+        8.80373930218576,
+        7.347028277751586,
+        6.213482933117512,
+        5.780843912321946,
+        5.315523569245904,
+        6.871656195688065,
+        7.638845304511059,
+        5.642950527512707,
+        5.475767816346267,
+        4.647671467134322
+    ],
+    "train_time_history": [
+        166.56072974205017,
+        165.14932322502136,
+        165.55203819274902,
+        164.64247465133667,
+        164.9736771583557,
+        164.41188144683838,
+        164.4754958152771,
+        164.61575770378113,
+        164.15601682662964,
+        164.31992554664612
+    ],
+    "valid_loss_history": [
+        13.112456341312356,
+        11.341841139205515,
+        10.013838707584224,
+        8.624064790059442,
+        9.50261740570199,
+        8.19026585801007,
+        12.022713326428034,
+        10.347349108898477,
+        8.888096832249262,
+        8.455089760969763,
+        8.109484830131269
+    ]
+}
