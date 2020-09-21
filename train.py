@@ -98,7 +98,7 @@ def main():
     parser.add_argument('--model', type=str, help='Path to checkpoint folder')
 
     # Trainig Parameters
-    parser.add_argument('--epochs', type=int, default=100)
+    parser.add_argument('--epochs', type=int, default=300)
     parser.add_argument('--batch-size', type=int, default=16)
     parser.add_argument('--lr', type=float, default=0.001,
                         help='learning rate, defaults to 1e-3')

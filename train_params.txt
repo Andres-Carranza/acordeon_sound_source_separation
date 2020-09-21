@@ -1,9 +1,10 @@
 python train.py\
     --dataset sourcefolder\
     --output open-unmix-512\
-    --root /Users/andres/Documents/acordeon/data\
+    --root /home/carranzamoreno9/acordeon_sound_source_separation\
     --target-dir acordeon\
     --interferer-dirs interferer\
     --ext .wav\
     --nb-train-samples 1305\
     --nb-valid-samples 146
+    --model /home/carranzamoreno9/acordeon_sound_source_separation/open-unmix-512
