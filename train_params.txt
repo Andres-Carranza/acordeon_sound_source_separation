@@ -7,4 +7,5 @@ python train.py\
     --interferer-dirs interferer\
     --ext .wav\
     --nb-train-samples 1305\
-    --nb-valid-samples 146
+    --nb-valid-samples 146\
+    --epochs 100
